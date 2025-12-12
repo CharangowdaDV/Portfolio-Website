@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Charana D V</span></h1>
+                <p class="hero-subtitle">Full Stack Developer & Computer Science Student</p>
+                <p class="hero-description">Passionate about backend development, cloud technologies, and creating innovative solutions with modern web technologies.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Profile Picture" onerror="this.style.display='none'">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Computer Science student at SJEC, Mangalore, with a strong foundation in full-stack development. I specialize in Java, Python, JavaScript, and modern web technologies. My experience includes internships at SVL Technology Pvt. Ltd. and hands-on projects in MERN stack, face emotion detection, and cloud technologies.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>8.87</h3>
+                            <p>CGPA</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2025</h3>
+                            <p>Expected Graduation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">React JS</span>
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">Express.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Cloud</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Google Cloud VM</span>
+                        <span class="skill-item">SQL Server</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Developer Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Face Emotion Detection" onerror="this.src='https://via.placeholder.com/400x250/50e3c2/ffffff?text=Face+Emotion+Detection'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Emotion Detection Using React JS</h3>
+                        <p>A web-based system to identify human emotions from live camera input. Captures face and sends image to backend/ML model for processing. Uses deep learning or pre-trained models to classify emotions like happy, sad, angry, or surprised.</p>
+                        <div class="project-tech">
+                            <span>React JS</span>
+                            <span>Deep Learning</span>
+                            <span>Computer Vision</span>
+                            <span>Real-time Processing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CharangowdaDV" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="internship" class="projects">
+        <div class="container">
+            <h2 class="section-title">Internship</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Python & SQL Project" onerror="this.src='https://via.placeholder.com/400x250/f5a623/ffffff?text=Python+SQL+Project'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Python & SQL Project Intern at SVL Technology Pvt. Ltd.</h3>
+                        <p>Gained hands-on experience in developing data-driven applications. Used Python for data processing and automation, and SQL for designing, querying, and managing databases. Contributed to real-time projects, learned to write clean and efficient code, and improved understanding of software development and database concepts.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Data Processing</span>
+                            <span>Database Management</span>
+                            <span>Automation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CharangowdaDV" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always interested in new opportunities and exciting projects. Let's connect!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>charangowdadv2003@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91-7676905162</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hassan, Karnataka, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-id-card"></i>
+                            
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/CharangowdaDV" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/charanadv" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Charana D V. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
